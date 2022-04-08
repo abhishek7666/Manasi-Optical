@@ -1,0 +1,89 @@
+/* *{
+	padding:0;
+	margin:0;
+	box-sizing:border;
+} */
+.hero-img{
+	background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(../images/retro-sun-glass\ \(4\).jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	/* height: 100vh; */
+}
+.head{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+.logo h2{
+	display: inline-block;
+	/* margin-left: 25px; */
+	font-family: ;
+}
+.searchbar i{
+	position: absolute;
+    top: 60px;
+    right: 30px;
+	color: gray;
+}
+/* ============================== */
+.lenceCart{
+    padding-top: 100px;
+    color: #fff;
+    text-align: center;
+}
+.lence{
+	margin-top: 101px;
+}
+.mb-10{
+	margin-bottom: 10px;
+}
+.lence-info{
+    /* border: 1px solid #000; */
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.lence-info img{
+    width: 100%; 
+    height: 150px;
+     object-fit: cover;
+	 margin: 20px 0;
+	 border-radius: 10px;
+	 transition: all 0.5s ease-in-out;
+}
+.lence-info img:hover{
+	transform: translateY(-15px);
+    box-shadow: 0 0 6px 6px #161616;
+    cursor: pointer;
+}
+.lence-info h4{
+    font-size: 30opx;
+    font-weight: bold;
+    text-transform: capitalize;
+	margin-bottom: 10px;
+	color: #000;
+}
+.lence-info h2{
+    color: #fff;
+	background-color: blueviolet;
+}
+.lence-info .btn1, .lence-info .btn2{
+    border: none;
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-size: 14px;
+}
+.btn1{
+    background-color:hotpink;
+}
+.btn2{
+    background-color:green;
+}
+.btn1:hover{
+    background-color: pink;
+}
+.btn2:hover{
+    background-color:lightgreen;
+}
