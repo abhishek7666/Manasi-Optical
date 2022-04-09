@@ -2,7 +2,7 @@ let cl = console.log;
 
 let goggal = document.getElementById("lence");
 let search = document.getElementById("search");
-let arrow = document.getElementById("arrow");
+
 
 let lenceArry = [
 
@@ -146,15 +146,15 @@ printlences(lenceArry);
 search.addEventListener('keyup', forgoggals);
 
 function forgoggals(ele){
-    if(ele.key==="Enter"){
-        goggal.innerHTML = " ";
-        ele.target.value.toLowerCase();
-        let newGoggal = lenceArry.filter(ele =>{
-            let a = ele.target.value;
-            return ele.name,toLowerCase().includes(a);
+    
+        goggal.innerHTML = "";
+        ele.target.value.toLowerCase(); //red lence
+        let newGoggal = lenceArry.filter(e =>{
+            // let a = ele.target.value;
+            return e.name.toLowerCase().includes(ele.target.value);
         })
         printlences(newGoggal);
-    }
+    
 }
 
 

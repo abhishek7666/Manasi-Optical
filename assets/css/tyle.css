@@ -55,7 +55,7 @@
 }
 .lence-info img:hover{
 	transform: translateY(-15px);
-    box-shadow: 0 0 6px 6px #161616;
+    box-shadow: 0 0 6px 6px #000000;
     cursor: pointer;
 }
 .lence-info h4{
